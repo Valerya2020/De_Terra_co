@@ -142,7 +142,7 @@ h1 {
   height: calc(100% - 40px);
   width: calc(100% - 40px);
 }
-.menu-items a {
+p, .menu-items a {
 font-family: "Anonymous_Pro";
 text-decoration: none;
 font-size: 1rem;
