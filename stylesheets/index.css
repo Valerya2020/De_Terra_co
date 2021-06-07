@@ -132,6 +132,15 @@ text-decoration: none;
 font-size: 1rem;
 color: black;
 }
+.logo {
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      position: relative;
+      display: block;
+      background-image: url('../images/logo.png');
+      height: 55px;
+      width: 113px;
+    }
 nav {
   position: fixed;
   display: block;
