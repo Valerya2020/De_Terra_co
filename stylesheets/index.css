@@ -44,6 +44,7 @@ h1 {
   ;
   grid-gap: 0px;
   height: 100%;
+  width: 100%;
   margin: 0px;
 }
 .section {
@@ -97,14 +98,28 @@ h1 {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   position: relative;
-  display: block;
+  display: grid;
+  grid-template:
+  ""
+  ;
+  grid-gap: 20px;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
 }
 .description_about3  {
   grid-area: description_about3;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   position: relative;
-  display: block;
+  display: grid;
+  grid-template:
+  ""
+  ;
+  grid-gap: 20px;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
 }
 .store_advertisement  {
   grid-area: store_advertisement;
@@ -166,7 +181,7 @@ nav {
   position: fixed;
   display: block;
   height: 12.5vh;
-  width: 100vw;
+  width: 100%;
   border: 1px solid #000000;
   border-collapse: collapse;
   background: url('../images/grid_menu2.svg');
@@ -181,7 +196,4 @@ nav {
   align-items: center;
   height: calc(100% - 40px);
   width: calc(100% - 40px);
-}
-h1.bio_letter {
-
 }
