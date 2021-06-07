@@ -128,16 +128,22 @@ html {
   width: calc(100% - 40px);
 }
 .menu-items a {
+font-family: "Anonymous_Pro";
 text-decoration: none;
 font-size: 1rem;
 color: black;
+}
+a.active_menu-item {
+  font-family: "Anonymous_Pro_B";
+  color: #3C604F;
+  font-size: 1rem;
 }
 .logo {
       background-size: 100% 100%;
       background-repeat: no-repeat;
       position: relative;
       display: block;
-      background-image: url('../images/logo.png');
+      background-image: url('../images/logo2.svg');
       height: 55px;
       width: 113px;
     }
