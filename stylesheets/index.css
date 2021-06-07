@@ -72,10 +72,18 @@ h1 {
 }
 .image_about1 {
   grid-area: image_about1;
-  background-size: 100% 100%;
+  position: relative;
+  display: block;
+  padding: 20px;
+}
+.container_image1 {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   position: relative;
   display: block;
+  background-image: url('../images/image_about1.jpg');
 }
 .description_about1 {
   grid-area: description_about1;
