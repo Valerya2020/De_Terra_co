@@ -19,3 +19,18 @@ html {
   overflow: hidden;
   padding: 0px;
 }
+#grid {
+  position: relative;
+  display: grid;
+  grid-template:
+  "menu_about                 menu_about"
+  "header_about               header_about"
+  "image_about1               description_about1"
+  "description_about2         description_about2"
+  "description_about3         description_about3"
+  "store_advertisement        store_advertisement"
+  "science_advertisement      science_advertisement"
+  "education_advertisement    education_advertisement"
+  "footer                     footer"
+  ;
+}
