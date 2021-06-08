@@ -638,6 +638,37 @@ width: 193px;
   border-bottom: 0px;
   border-left: 0px;
   border-right: 0px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 0px;
+  position: relative;
+  display: grid;
+  grid-template:
+  "button-medcine-diag button-medcine-heal button-medcine-protez" 100%
+  /1fr                1fr                1fr
+  ;
+  grid-gap: 20px;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+}
+.button-medcine-diag  {
+  grid-area: button-medcine-diag;
+}
+.button-medcine-heal  {
+  grid-area: button-medcine-heal;
+}
+.button-medcine-protez  {
+  grid-area: button-medcine-protez;
+}
+.button-medcine-ticket {
+  display: block;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  border: 1px solid #000000;
+  border-top: 0px;
 }
 .container_image-medcine {
   height: 100%;
