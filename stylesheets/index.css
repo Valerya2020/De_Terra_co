@@ -450,9 +450,9 @@ width: 204px;
 }
 .statistics h3, .statistics p {
   display: block;
-  margin-left: auto;
-  margin-right: auto
   position: relative;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 .button_science {
   grid-area: button_science;
