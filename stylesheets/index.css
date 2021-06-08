@@ -276,7 +276,80 @@ h2 {
 .content_store  {
   grid-area: content_store;
   position: relative;
+  display: grid;
+  grid-template:
+  "store-card-advert1 store-card-advert2 store-card-advert3" 100%
+  /1fr                1fr                1fr
+  ;
+  grid-gap: 20px;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+}
+.store-card-advert1  {
+  grid-area: store-card-advert1;
+  position: relative;
   display: block;
+}
+.store-card-advert2  {
+  grid-area: store-card-advert2;
+  position: relative;
+  display: block;
+}
+.store-card-advert3  {
+  grid-area: store-card-advert3;
+  position: relative;
+  display: block;
+}
+.store-card {
+  position: relative;
+  display: grid;
+  grid-template:
+  "image-store-card" 8fr
+  "text-store-card"  2fr
+  /100%
+  ;
+  grid-gap: 0px;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+}
+.image-store-card1  {
+background-image: url('../images/image-store-card1.png');
+}
+.image-store-card2  {
+background-image: url('../images/image-store-card2.png');
+}
+.image-store-card3  {
+background-image: url('../images/image-store-card3.png');
+}
+.image-store-card0  {
+position: relative;
+display: block;
+height: 100%;
+width: 100%;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.image-store-card  {
+  grid-area: image-store-card;
+  position: relative;
+  display: block;
+  margin: 0px;
+  padding: 20px;
+  border: 1px solid #000000;
+  border-collapse: collapse;
+}
+.text-store-card  {
+  grid-area: text-store-card;
+  position: relative;
+  display: flex;
+  margin: 0px;
+  padding: 20px;
+  border: 1px solid #000000;
+  border-collapse: collapse;
+  text-align: center;
+  align-items: center;
 }
 .button_store  {
   grid-area: button_store;
