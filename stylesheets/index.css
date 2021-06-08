@@ -388,7 +388,7 @@ background-position: center;
   margin: 0px;
   padding: 20px;
   border: 1px solid #000000;
-  border-collapse: collapse;
+  justify-content: center;
   text-align: center;
   align-items: center;
 }
@@ -561,9 +561,9 @@ background-position: center;
   margin: 0px;
   padding: 20px;
   border: 1px solid #000000;
-  border-collapse: collapse;
   text-align: center;
   align-items: center;
+  justify-content: center;
 }
 .text-education-card_p1  {
   grid-area: text-education-card_p1;
