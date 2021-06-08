@@ -23,7 +23,7 @@ h1 {
 h2 {
   font-family: "Anonymous_Pro";
   color: black;
-  font-size: 2.4rem;
+  font-size: 2rem;
 }
 h3 {
   font-family: "Anonymous_Pro";
@@ -470,7 +470,7 @@ width: 280px;
   position: relative;
   display: grid;
   grid-template:
-  "header_education"  1fr
+  "header_education"  2fr
   "content_education" 11fr
   "button_education"  4fr
   /100%
@@ -589,13 +589,64 @@ width: 193px;
   position: relative;
   display: grid;
   grid-template:
-  ""
+  "header_medcine           header_medcine"       2fr
+  "text_space-medcine1      image_medcine"        6fr
+  "text_space-medcine1      text_space-medcine2"  3fr
+  "text_space-medcine1      text_space-medcine3"  3fr
+  "button-medcine           button-medcine"       2fr
+  /5fr                      7fr
   ;
-  grid-gap: 20px;
+  grid-gap: 0px;
   height: 100%;
   width: 100%;
   margin: 0px;
+  padding: 0px;
   border-bottom: 0px;
+}
+.medcine-grid {
+  padding: 20px;
+  border: 1px solid #000000;
+  position: relative;
+  display: block;
+}
+.header_medcine  {
+  grid-area: header_medcine;
+  border: 0px;
+}
+.text_space-medcine1  {
+  grid-area: text_space-medcine1;
+  border-left: 0px;
+  border-bottom: 0px;
+}
+.image_medcine  {
+  grid-area: image_medcine;
+  border-left: 0px;
+  border-right: 0px;
+}
+.text_space-medcine2  {
+  grid-area: text_space-medcine2;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+.text_space-medcine3  {
+  grid-area: text_space-medcine3;
+  border: 0px;
+}
+.button-medcine  {
+  grid-area: button-medcine;
+  border-bottom: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+.container_image-medcine {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: block;
+  background-image: url('../images/container_image-medcine.png');
 }
 .footer  {
   grid-area: footer;
