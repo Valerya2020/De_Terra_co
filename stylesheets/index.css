@@ -98,13 +98,14 @@ h1 {
   position: relative;
   display: grid;
   grid-template:
-  " text_space-da2        text_space-da2        text_space-da2        text_space-da2        ...                   ...                   ..."
-  " ...                   ...                   ...                   ...                   ...                   composition1_p1       composition1_p1"
-  " ...                   ...                   ...                   composition1_p2       composition1_p2       composition1_p2       composition1_p2"
-  " ...                   ...                   composition1_p3       composition1_p3       composition1_p3       composition1_p3       composition1_p3"
-  " ...                   composition1_p4       composition1_p4       ...                   composition1_p5       composition1_p5       ..."
-  " ...                   ...                   ...                   ...                   composition1_p5       composition1_p5       ..."
-  " composition1_p6       composition1_p6       composition1_p6       composition1_p6       composition1_p5       composition1_p5       ..."
+  " text_space-da2        text_space-da2        text_space-da2        text_space-da2        ...                   ...                   ..."              3fr
+  " ...                   ...                   ...                   ...                   ...                   composition1_p1       composition1_p1"  2fr
+  " ...                   ...                   ...                   composition1_p2       composition1_p2       composition1_p2       composition1_p2"  3fr
+  " ...                   ...                   composition1_p3       composition1_p3       composition1_p3       composition1_p3       composition1_p3"  1fr
+  " ...                   composition1_p4       composition1_p4       ...                   composition1_p5       composition1_p5       ..."              2fr
+  " ...                   ...                   ...                   ...                   composition1_p5       composition1_p5       ..."              2fr
+  " composition1_p6       composition1_p6       composition1_p6       composition1_p6       composition1_p5       composition1_p5       ..."              2fr
+  /1fr                    3fr                   1fr                   1fr                   3fr                   2fr                   1fr
   ;
   grid-gap: 20px;
   height: 100%;
@@ -163,8 +164,92 @@ h1 {
 }
 .description_about3  {
   grid-area: description_about3;
-  background-size: 100% 100%;
+  position: relative;
+  display: grid;
+  grid-template:
+  " text_space-da3        text_space-da3        text_space-da3        ...                   ...                   ...                   ..."               3fr
+  " ...                   ...                   ...                   ...                   ...                   composition2_p1       composition2_p1"   1fr
+  " ...                   ...                   ...                   composition2_p2       composition2_p2       composition2_p2       composition2_p3"   1fr
+  " composition2_p4       ...                   ...                   ...                   ...                   ...                   composition2_p3"   1fr
+  " composition2_p4       composition2_p5       ...                   ...                   composition2_p6       composition2_p6       composition2_p3"   1fr
+  " composition2_p4       composition2_p5       composition2_p7       composition2_p7       composition2_p6       composition2_p6       composition2_p3"   1fr
+  " composition2_p4       composition2_p8       composition2_p8       composition2_p8       composition2_p6       composition2_p6       composition2_p3"   3fr
+  /2fr                    3fr                   1fr                   2fr                   2fr                   2fr                   2fr
+  ;
+  grid-gap: 20px;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+}
+.composition2 {
+  background-image: url('../images/comp2.jpg');
+}
+.composition3 {
+  background-image: url('../images/comp3.jpg');
+}
+.text_space-da3 {
+  grid-area: text_space-da3;
+  position: relative;
+  display: block;
+}
+.composition2_p1 {
+  grid-area: composition2_p1;
+  background-size: cover;
   background-repeat: no-repeat;
+  position: relative;
+  display: block;
+}
+.composition2_p2 {
+  grid-area: composition2_p2;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: block;
+}
+.composition2_p3 {
+  grid-area: composition2_p3;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: block;
+}
+.composition2_p4 {
+  grid-area: composition2_p4;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: block;
+}
+.composition2_p5 {
+  grid-area: composition2_p5;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: block;
+}
+.composition2_p6 {
+  grid-area: composition2_p6;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: block;
+}
+.composition2_p7 {
+  grid-area: composition2_p7;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: block;
+}
+.composition2_p8 {
+  grid-area: composition2_p8;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: block;
+}
+.store_advertisement  {
+  grid-area: store_advertisement;
   position: relative;
   display: grid;
   grid-template:
@@ -174,13 +259,6 @@ h1 {
   height: 100%;
   width: 100%;
   margin: 0px;
-}
-.store_advertisement  {
-  grid-area: store_advertisement;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  position: relative;
-  display: block;
 }
 .science_advertisement  {
   grid-area: science_advertisement;
@@ -240,8 +318,9 @@ nav {
   border-collapse: collapse;
   background: url('../images/grid_menu2.svg');
   background-size: contain;
-  z-index: 20;
+  z-index: 30;
   padding: 20px;
+  margin: 0px;
 }
 .bio_header {
   position: absolute;

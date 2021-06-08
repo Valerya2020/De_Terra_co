@@ -1,25 +1,26 @@
 <svg width="1280" height="97" viewBox="0 0 1280 97" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect width="1280" height="97" fill="#E6E5E3"/>
-<path d="M16 1L16 96" stroke="#8AA97E" stroke-width="0.2"/>
-<path d="M140 1L140 96" stroke="#8AA97E" stroke-width="0.2"/>
-<path d="M264 1L264 96" stroke="#8AA97E" stroke-width="0.2"/>
-<path d="M388 1L388 96" stroke="#8AA97E" stroke-width="0.2"/>
-<path d="M512 1L512 96" stroke="#8AA97E" stroke-width="0.2"/>
-<path d="M636 1L636 96" stroke="#8AA97E" stroke-width="0.2"/>
-<path d="M760 1L760 96" stroke="#8AA97E" stroke-width="0.2"/>
-<path d="M884 1L884 96" stroke="#8AA97E" stroke-width="0.2"/>
-<path d="M1008 1L1008 96" stroke="#8AA97E" stroke-width="0.2"/>
-<path d="M1132 1L1132 96" stroke="#8AA97E" stroke-width="0.2"/>
-<path d="M80 1L80 96" stroke="#8AA97E" stroke-width="0.2"/>
-<path d="M204 1L204 96" stroke="#8AA97E" stroke-width="0.2"/>
-<path d="M0 52L1280 52" stroke="#8AA97E" stroke-width="0.2"/>
-<path d="M328 1L328 96" stroke="#8AA97E" stroke-width="0.2"/>
-<path d="M452 1L452 96" stroke="#8AA97E" stroke-width="0.2"/>
-<path d="M576 1L576 96" stroke="#8AA97E" stroke-width="0.2"/>
-<path d="M700 1L700 96" stroke="#8AA97E" stroke-width="0.2"/>
-<path d="M824 1L824 96" stroke="#8AA97E" stroke-width="0.2"/>
-<path d="M948 1L948 96" stroke="#8AA97E" stroke-width="0.2"/>
-<path d="M1072 1L1072 96" stroke="#8AA97E" stroke-width="0.2"/>
-<path d="M1196 1L1196 96" stroke="#8AA97E" stroke-width="0.2"/>
-<path d="M1256 1L1256 96" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M1280 0H0V97H1280V0Z" fill="#E6E5E3"/>
+<path d="M16 1V96" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M140 1V96" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M264 1V96" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M388 1V96" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M512 1V96" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M636 1V96" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M760 1V96" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M884 1V96" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M1008 1V96" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M1132 1V96" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M80 1V96" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M204 1V96" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M0 52H1280" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M328 1V96" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M452 1V96" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M576 1V96" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M700 1V96" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M824 1V96" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M948 1V96" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M1072 1V96" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M1196 1V96" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M1256 1V96" stroke="#8AA97E" stroke-width="0.2"/>
 </svg>
