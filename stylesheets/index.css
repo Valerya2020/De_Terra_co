@@ -4,7 +4,7 @@ body {
   padding: 0;
   background: #E6E5E3;
   position: relative;
-  height: 628.75vh;
+  height: 728.75vh;
 }
 html {
   background: #bbb;
@@ -50,6 +50,7 @@ h3 {
   "store_advertisement        store_advertisement"      100vh
   "science_advertisement      science_advertisement"    100vh
   "education_advertisement    education_advertisement"  110vh
+  "medcine                    medcine"                  100vh
   "footer                     footer"                   18.75vh
   /50vw                       50vw
   ;
@@ -471,6 +472,19 @@ width: 280px;
   background-repeat: no-repeat;
   position: relative;
   display: block;
+  border-bottom: 0px;
+}
+.medcine  {
+  grid-area: medcine;
+  position: relative;
+  display: grid;
+  grid-template:
+  ""
+  ;
+  grid-gap: 20px;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
   border-bottom: 0px;
 }
 .footer  {
