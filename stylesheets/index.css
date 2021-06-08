@@ -268,6 +268,21 @@ h2 {
   width: 100%;
   margin: 0px;
 }
+.header_store  {
+  grid-area: header_store;
+  position: relative;
+  display: block;
+}
+.content_store  {
+  grid-area: content_store;
+  position: relative;
+  display: block;
+}
+.button_store  {
+  grid-area: button_store;
+  position: relative;
+  display: block;
+}
 .science_advertisement  {
   grid-area: science_advertisement;
   background-size: 100% 100%;
