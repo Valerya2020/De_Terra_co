@@ -25,6 +25,11 @@ h2 {
   color: black;
   font-size: 2.4rem;
 }
+h3 {
+  font-family: "Anonymous_Pro";
+  color: black;
+  font-size: 7.2rem;
+}
 .main {
   display: block;
   width: 100%;
@@ -337,7 +342,6 @@ h2 {
   padding-left: 0px;
   z-index: 6;
   top: 1.2rem;
-  flex: 0 0 auto;
   height: 1.2rem;
   width: auto;
 }
@@ -408,15 +412,58 @@ width: 204px;
   border-bottom: 0px;
   display: grid;
   grid-template:
-  "header_science"  1fr
+  "header_science"  2fr
   "content_science" 11fr
-  "button_science"  4fr
+  "button_science"  3fr
   /100%
   ;
   grid-gap: 20px;
   height: 100%;
   width: 100%;
   margin: 0px;
+}
+.header_science {
+  grid-area: header_science;
+  position: relative;
+  display: block;
+}
+.content_science {
+  grid-area: content_science;
+  position: relative;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.statistics {
+  position: relative;
+  height: 11rem;
+  width: 30vw;
+  justify-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.statistics h3, .statistics p {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+  position: relative;
+}
+.button_science {
+  grid-area: button_science;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.button-science {
+background-image: url('../images/button-science1.svg');
+height: 84px;
+width: 280px;
 }
 .education_advertisement  {
   grid-area: education_advertisement;
