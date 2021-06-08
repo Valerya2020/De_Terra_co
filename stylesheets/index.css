@@ -95,17 +95,71 @@ h1 {
 }
 .description_about2  {
   grid-area: description_about2;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
   position: relative;
   display: grid;
   grid-template:
-  ""
+  " text_space-da2        text_space-da2        text_space-da2        text_space-da2        ...                   ...                   ..."
+  " ...                   ...                   ...                   ...                   ...                   composition1_p1       composition1_p1"
+  " ...                   ...                   ...                   composition1_p2       composition1_p2       composition1_p2       composition1_p2"
+  " ...                   ...                   composition1_p3       composition1_p3       composition1_p3       composition1_p3       composition1_p3"
+  " ...                   composition1_p4       composition1_p4       ...                   composition1_p5       composition1_p5       ..."
+  " ...                   ...                   ...                   ...                   composition1_p5       composition1_p5       ..."
+  " composition1_p6       composition1_p6       composition1_p6       composition1_p6       composition1_p5       composition1_p5       ..."
   ;
   grid-gap: 20px;
   height: 100%;
   width: 100%;
   margin: 0px;
+}
+.composition1 {
+  background-image: url('../images/comp1.jpg');
+}
+.text_space-da2 {
+  grid-area: text_space-da2;
+  position: relative;
+  display: block;
+}
+.composition1_p1 {
+  grid-area: composition1_p1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: block;
+}
+.composition1_p2 {
+  grid-area: composition1_p2;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: block;
+}
+.composition1_p3 {
+  grid-area: composition1_p3;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: block;
+}
+.composition1_p4 {
+  grid-area: composition1_p4;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: block;
+}
+.composition1_p5 {
+  grid-area: composition1_p5;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: block;
+}
+.composition1_p6 {
+  grid-area: composition1_p6;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: block;
 }
 .description_about3  {
   grid-area: description_about3;
