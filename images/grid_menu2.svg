@@ -1,26 +1,47 @@
-<svg width="1280" height="97" viewBox="0 0 1280 97" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="1280" height="97" fill="#E6E5E3"/>
-<path d="M1280 0H0V97H1280V0Z" fill="#E6E5E3"/>
-<path d="M16 1V96" stroke="#8AA97E" stroke-width="0.2"/>
-<path d="M140 1V96" stroke="#8AA97E" stroke-width="0.2"/>
-<path d="M264 1V96" stroke="#8AA97E" stroke-width="0.2"/>
-<path d="M388 1V96" stroke="#8AA97E" stroke-width="0.2"/>
-<path d="M512 1V96" stroke="#8AA97E" stroke-width="0.2"/>
-<path d="M636 1V96" stroke="#8AA97E" stroke-width="0.2"/>
-<path d="M760 1V96" stroke="#8AA97E" stroke-width="0.2"/>
-<path d="M884 1V96" stroke="#8AA97E" stroke-width="0.2"/>
-<path d="M1008 1V96" stroke="#8AA97E" stroke-width="0.2"/>
-<path d="M1132 1V96" stroke="#8AA97E" stroke-width="0.2"/>
-<path d="M80 1V96" stroke="#8AA97E" stroke-width="0.2"/>
-<path d="M204 1V96" stroke="#8AA97E" stroke-width="0.2"/>
-<path d="M0 52H1280" stroke="#8AA97E" stroke-width="0.2"/>
-<path d="M328 1V96" stroke="#8AA97E" stroke-width="0.2"/>
-<path d="M452 1V96" stroke="#8AA97E" stroke-width="0.2"/>
-<path d="M576 1V96" stroke="#8AA97E" stroke-width="0.2"/>
-<path d="M700 1V96" stroke="#8AA97E" stroke-width="0.2"/>
-<path d="M824 1V96" stroke="#8AA97E" stroke-width="0.2"/>
-<path d="M948 1V96" stroke="#8AA97E" stroke-width="0.2"/>
-<path d="M1072 1V96" stroke="#8AA97E" stroke-width="0.2"/>
-<path d="M1196 1V96" stroke="#8AA97E" stroke-width="0.2"/>
-<path d="M1256 1V96" stroke="#8AA97E" stroke-width="0.2"/>
+<svg width="2558" height="97" viewBox="0 0 2558 97" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="2558" height="97" fill="#E6E5E3"/>
+<path d="M16 0V97" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M140 0V97" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M264 0V97" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M388 0V97" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M512 0V97" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M636 0V97" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M760 0V97" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M884 0V97" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M1008 0V97" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M1132 0V97" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M80 0V97" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M204 0V97" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M0 49.0107H1280" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M328 0V97" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M452 0V97" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M576 0V97" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M700 0V97" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M824 0V97" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M948 0V97" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M1072 0V97" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M1196 0V97" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M1256 0V97" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M1294 0V97" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M1418 0V97" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M1542 0V97" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M1666 0V97" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M1790 0V97" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M1914 0V97" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M2038 0V97" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M2162 0V97" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M2286 0V97" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M2410 0V97" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M1358 0V97" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M1482 0V97" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M1278 49.0107H2558" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M1606 0V97" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M1730 0V97" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M1854 0V97" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M1978 0V97" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M2102 0V97" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M2226 0V97" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M2350 0V97" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M2474 0V97" stroke="#8AA97E" stroke-width="0.2"/>
+<path d="M2534 0V97" stroke="#8AA97E" stroke-width="0.2"/>
 </svg>

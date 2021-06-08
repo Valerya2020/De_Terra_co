@@ -76,12 +76,16 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-top: 0px;
+  border-bottom: 0px;
 }
 .image_about1 {
   grid-area: image_about1;
   position: relative;
   display: block;
   padding: 20px;
+  border-right: 0px;
+  border-bottom: 0px;
 }
 .container_image1 {
   height: 100%;
@@ -98,6 +102,7 @@ h2 {
   background-repeat: no-repeat;
   position: relative;
   display: block;
+  border-bottom: 0px;
 }
 .description_about2  {
   grid-area: description_about2;
@@ -117,6 +122,7 @@ h2 {
   height: 100%;
   width: 100%;
   margin: 0px;
+  border-bottom: 0px;
 }
 .composition1 {
   background-image: url('../images/comp1.jpg');
@@ -186,6 +192,7 @@ h2 {
   height: 100%;
   width: 100%;
   margin: 0px;
+  border-bottom: 0px;
 }
 .composition2 {
   background-image: url('../images/comp2.jpg');
@@ -268,6 +275,7 @@ h2 {
   height: 100%;
   width: 100%;
   margin: 0px;
+  border-bottom: 0px;
 }
 .header_store  {
   grid-area: header_store;
@@ -366,6 +374,7 @@ background-repeat: no-repeat;
   margin: 0px;
   padding: 20px;
   border: 1px solid #000000;
+  border-bottom: 0px;
   border-collapse: collapse;
 }
 .text-store-card  {
@@ -382,7 +391,14 @@ background-repeat: no-repeat;
 .button_store  {
   grid-area: button_store;
   position: relative;
-  display: block;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.button-in-shop {
+background-image: url('../images/button-in-shop1.svg');
+height: 82px;
+width: 204px;
 }
 .science_advertisement  {
   grid-area: science_advertisement;
@@ -390,6 +406,7 @@ background-repeat: no-repeat;
   background-repeat: no-repeat;
   position: relative;
   display: block;
+  border-bottom: 0px;
 }
 .education_advertisement  {
   grid-area: education_advertisement;
@@ -397,6 +414,7 @@ background-repeat: no-repeat;
   background-repeat: no-repeat;
   position: relative;
   display: block;
+  border-bottom: 0px;
 }
 .footer  {
   grid-area: footer;
@@ -441,7 +459,7 @@ nav {
   border: 1px solid #000000;
   border-collapse: collapse;
   background: url('../images/grid_menu2.svg');
-  background-size: contain;
+  background-size: auto 100%;
   /* background-repeat: no-repeat; */
   z-index: 30;
   padding: 20px;
@@ -454,4 +472,10 @@ nav {
   align-items: center;
   height: calc(100% - 40px);
   width: calc(100% - 40px);
+}
+.button-cards {
+  position: relative;
+  display: flex;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
