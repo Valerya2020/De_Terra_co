@@ -765,6 +765,19 @@ nav {
   padding: 20px;
   margin: 0px;
 }
+.artificial_intelligence {
+  position: fixed;
+  display: block;
+  height: 8.2rem;
+  width: 8.2rem;
+  background: url('../images/artificial_intelligence.svg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  z-index: 28;
+  margin: 20px;
+  right: 0px;
+  bottom: 0px;
+}
 .bio_header {
   position: absolute;
   display: flex;
