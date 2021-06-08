@@ -663,12 +663,15 @@ width: 193px;
   grid-area: button-medcine-protez;
 }
 .button-medcine-ticket {
-  display: block;
+  display: flex;
   position: relative;
   height: 100%;
   width: 100%;
   border: 1px solid #000000;
   border-top: 0px;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
 }
 .container_image-medcine {
   height: 100%;
@@ -681,10 +684,46 @@ width: 193px;
 }
 .footer  {
   grid-area: footer;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
+  background: url('../images/grid_footer.svg');
+  background-size: auto 100%;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
   position: relative;
-  display: block;
+  display: grid;
+  grid-template:
+  "footer_space1 footer_space2 footer_space3" 100%
+  /1fr                1fr                1fr
+  ;
+  grid-gap: 10vw;
+}
+.footer_space {
+  display: flex;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.footer_space1 {
+  grid-area: footer_space1;
+  justify-content: flex-start;
+}
+.footer_space2 {
+  grid-area: footer_space2;
+  justify-content: center;
+}
+.footer_space3 {
+  grid-area: footer_space3;
+  justify-content: flex-end;
+}
+.footer p {
+  display: inline-flex;
+  position: relative;
+  color: #E6E5E3;
+  font-size: .7rem;
 }
 .menu-items{
   position: absolute;
@@ -720,10 +759,8 @@ nav {
   height: 12.5vh;
   width: 100%;
   border: 1px solid #000000;
-  border-collapse: collapse;
   background: url('../images/grid_menu2.svg');
   background-size: auto 100%;
-  /* background-repeat: no-repeat; */
   z-index: 30;
   padding: 20px;
   margin: 0px;
