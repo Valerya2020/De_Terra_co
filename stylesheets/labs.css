@@ -6,3 +6,85 @@ body {
   position: relative;
   height: 100vh;
 }
+#grid_labs {
+  position: relative;
+  display: grid;
+  grid-template:
+  "content_labs"  68.75vh
+  "footer"        18.75vh
+  /100vw
+  ;
+  grid-gap: 0px;
+  height: 100%;
+  width: 100%;
+  margin-top: 12.5vh;
+}
+.content_labs {
+  grid-area: content_labs;
+  position: relative;
+  border-top: 0px;
+  border-bottom: 0px;
+  display: grid;
+  grid-template:
+  "card_lab_fito   card_lab_endogen   card_lab_sru" 100%
+  /1fr             1fr                1fr
+  ;
+  grid-gap: 20px;
+  height: 100%;
+  width: 100%;
+}
+.card_lab_fito {
+  grid-area: card_lab_fito;
+}
+.card_lab_endogen {
+  grid-area: card_lab_endogen;
+}
+.card_lab_sru {
+  grid-area: card_lab_sru;
+}
+.card-lab {
+  position: relative;
+  display: grid;
+  grid-template:
+  "image-lab-card" 8fr
+  "text-lab-card" 2fr
+  /100%
+  ;
+  grid-gap: 0px;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+}
+.image-lab-card1  {
+background-image: url('../images/image-lab-card1.png');
+}
+.image-lab-card2  {
+background-image: url('../images/image-lab-card2.png');
+}
+.image-lab-card3  {
+background-image: url('../images/image-lab-card3.png');
+}
+.image-lab-card {
+  grid-area: image-lab-card;
+  position: relative;
+  display: block;
+  margin: 0px;
+  padding: 20px;
+  border: 1px solid #000000;
+  border-bottom: 0px;
+}
+.text-lab-card {
+  grid-area: text-lab-card;
+  position: relative;
+  display: flex;
+  margin: 0px;
+  padding: 20px;
+  border: 1px solid #000000;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+}
+.content_labs a {
+  text-decoration: none;
+}
