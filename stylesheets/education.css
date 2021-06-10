@@ -1,0 +1,34 @@
+body {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background: #E6E5E3;
+  position: relative;
+  height: calc(2040px + 31.25vh);
+}
+#grid_education {
+  position: relative;
+  display: grid;
+  grid-template:
+  "content_education"  2040px
+  "footer"             18.75vh
+  /100vw
+  ;
+  grid-gap: 0px;
+  height: 100%;
+  width: 100%;
+  margin-top: 12.5vh;
+}
+.content_education {
+  grid-area: content_education;
+  display: grid;
+  grid-template:
+  ""
+  ;
+  grid-gap: 20px;
+  height: 100%;
+  width: 100%;
+  margin-top: 0px;
+  border-top: 0px;
+  border-bottom: 0px;
+}
