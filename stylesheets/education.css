@@ -4,13 +4,13 @@ body {
   padding: 0;
   background: #E6E5E3;
   position: relative;
-  height: calc(2040px + 31.25vh);
+  height: calc(2880px + 31.25vh);
 }
 #grid_education {
   position: relative;
   display: grid;
   grid-template:
-  "content_education"  2040px
+  "content_education"  2880px
   "footer"             18.75vh
   /100vw
   ;
@@ -23,17 +23,17 @@ body {
   grid-area: content_education;
   display: grid;
   grid-template:
-  "card-event-education1" 10rem
-  "card-event-education2" 10rem
-  "card-event-education3" 10rem
-  "card-event-education4" 10rem
-  "card-event-education5" 10rem
-  "card-event-education6" 10rem
-  "card-event-education7" 10rem
-  "card-event-education8" 10rem
-  "card-event-education9" 10rem
-  "card-event-education10" 10rem
-  "card-event-education11" 10rem
+  "card-event-education1" 12rem
+  "card-event-education2" 12rem
+  "card-event-education3" 12rem
+  "card-event-education4" 12rem
+  "card-event-education5" 12rem
+  "card-event-education6" 12rem
+  "card-event-education7" 12rem
+  "card-event-education8" 12rem
+  "card-event-education9" 12rem
+  "card-event-education10" 12rem
+  "card-event-education11" 12rem
   /100%
   ;
   grid-gap: 20px;
@@ -81,10 +81,55 @@ display: grid;
 position: relative;
 grid-template:
 "image-box-education body-card-education" 1fr
-"image-box-education more-card-education" 1.2rem
-/100%
+"image-box-education more-card-education" 2rem
+/2fr                 4fr
 ;
-grid-gap: 20px;
+grid-gap: 0px;
 height: 100%;
 width: 100%;
+}
+.image-box-education {
+  grid-area: image-box-education;
+  position: relative;
+  display: block;
+  margin: 0px;
+  padding: 20px;
+  border: 1px solid #000000;
+}
+.image-box-education1 {
+  background-image: url('../images/image-box-education1.png');
+}
+.body-card-education {
+  display: flex;
+  position: relative;
+  grid-area: body-card-education;
+  border: 1px solid #000000;
+  border-left: 0px;
+  border-bottom: 0px;
+  padding: 20px;
+  flex-flow: wrap;
+  align-content: space-between;
+}
+.body-card-education p, .body-card-education h3 {
+  display: inline-block;
+  position: relative;
+}
+.more-card-education {
+  grid-area: more-card-education;
+  border: 1px solid #000000;
+  border-top: 0px;
+  border-left: 0px;
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+}
+.more-card-education p {
+  display: inline-block;
+  border: 1px solid #000000;
+  background: #E6E5E3;
+  padding: .5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-right: -1px;
+  border-bottom: 0px;
 }
