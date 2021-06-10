@@ -23,7 +23,18 @@ body {
   grid-area: content_education;
   display: grid;
   grid-template:
-  ""
+  "card-event-education1" 10rem
+  "card-event-education2" 10rem
+  "card-event-education3" 10rem
+  "card-event-education4" 10rem
+  "card-event-education5" 10rem
+  "card-event-education6" 10rem
+  "card-event-education7" 10rem
+  "card-event-education8" 10rem
+  "card-event-education9" 10rem
+  "card-event-education10" 10rem
+  "card-event-education11" 10rem
+  /100%
   ;
   grid-gap: 20px;
   height: 100%;
@@ -31,4 +42,47 @@ body {
   margin-top: 0px;
   border-top: 0px;
   border-bottom: 0px;
+}
+.card-event-education1 {
+  grid-area: card-event-education1;
+}
+.card-event-education2 {
+  grid-area: card-event-education2;
+}
+.card-event-education2 {
+  grid-area: card-event-education2;
+}
+.card-event-education3 {
+  grid-area: card-event-education3;
+}
+.card-event-education3 {
+  grid-area: card-event-education3;
+}
+.card-event-education4 {
+  grid-area: card-event-education4;
+}
+.card-event-education5 {
+  grid-area: card-event-education5;
+}
+.card-event-education6 {
+  grid-area: card-event-education6;
+}
+.card-event-education7 {
+  grid-area: card-event-education7;
+}
+.card-event-education8 {
+  grid-area: card-event-education8;
+}
+.card-event-education9 {
+  grid-area: card-event-education9;
+}
+.card-event-education {
+display: grid;
+position: relative;
+grid-template:
+""
+;
+grid-gap: 20px;
+height: 100%;
+width: 100%;
 }
