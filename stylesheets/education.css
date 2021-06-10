@@ -80,7 +80,9 @@ body {
 display: grid;
 position: relative;
 grid-template:
-""
+"image-box-education body-card-education" 1fr
+"image-box-education more-card-education" 1.2rem
+/100%
 ;
 grid-gap: 20px;
 height: 100%;
