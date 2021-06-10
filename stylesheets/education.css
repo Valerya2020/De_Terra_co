@@ -100,15 +100,44 @@ width: 100%;
 .image-box-education1 {
   background-image: url('../images/image-box-education1.png');
 }
+.image-box-education2 {
+  background-image: url('../images/image-box-education2.png');
+}
+.image-box-education3 {
+  background-image: url('../images/image-box-education3.png');
+}
+.image-box-education4 {
+  background-image: url('../images/image-box-education4.jpg');
+}
+.image-box-education5 {
+  background-image: url('../images/image-box-education5.png');
+}
+.image-box-education6 {
+  background-image: url('../images/image-box-education6.jpg');
+}
+.image-box-education7 {
+  background-image: url('../images/image-box-education7.jpg');
+}
+.image-box-education8 {
+  background-image: url('../images/image-box-education8.jpg');
+}
+.image-box-education9 {
+  background-image: url('../images/image-box-education9.png');
+}
+.image-box-education10 {
+  background-image: url('../images/image-box-education10.png');
+}
+.image-box-education11 {
+  background-image: url('../images/image-box-education11.png');
+}
 .body-card-education {
-  display: flex;
+  display: grid;
   position: relative;
   grid-area: body-card-education;
   border: 1px solid #000000;
   border-left: 0px;
   border-bottom: 0px;
   padding: 20px;
-  flex-flow: wrap;
   align-content: space-between;
 }
 .body-card-education p, .body-card-education h3 {
