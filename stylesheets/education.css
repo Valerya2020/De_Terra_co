@@ -165,12 +165,9 @@ width: 100%;
 }
 .button_education_test {
   grid-area: button_education_test;
-  position: relative;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
   border-top: 0px;
   border-bottom: 0px;
+  padding-bottom: 50px;
 }
 .button_education_test-prof {
   background-image: url('../images/button_education_test-prof.svg');

@@ -2,3 +2,15 @@ body {
   width: 100vw;
   height: 728.75vh;
 }
+#grid_medcine {
+  position: relative;
+  display: grid;
+  grid-template:
+  "header_medcine-centre"
+  "header_medcine-centre"
+  ;
+  grid-gap: 0px;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+}
