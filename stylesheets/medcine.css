@@ -66,3 +66,30 @@ body {
   border-top: 0px;
   border-bottom: 0px;
 }
+input[type="text"],
+    input[type="number"],
+    input[type="datetime-local"],
+    select {
+      display: block;
+      width: 460px;
+      position: relative;
+      margin: 10px auto;
+      height: 46px;
+      padding: 0 18px;
+      font-size: 1rem;
+      border: 1px solid #000000;
+      background: #E6E5E3;
+    }
+::-webkit-input-placeholder {
+  font-family: "Anonymous_Pro";
+  text-decoration: none;
+  font-size: 1rem;
+  color: #8AA97E;
+}
+.text_form {
+          display: block;
+          width: 460px;
+          position: relative;
+          margin: 10px auto;
+          margin-top: 40px;
+        }
