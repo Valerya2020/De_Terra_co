@@ -1,5 +1,5 @@
 body {
-  height: calc(1496px + 121.25vh);
+  height: calc(1206px + 121.25vh);
 }
 #grid_medcine {
   position: relative;
@@ -8,7 +8,7 @@ body {
   "header_medcine-centre"          10vh
   "info_medcine-centre"            70vh
   "void"                           10vh
-  "form_medcine-centre"            1496px
+  "form_medcine-centre"            1206px
   "footer"                         18.75vh
   /100%
   ;
@@ -79,6 +79,9 @@ input[type="text"],
       font-size: 1rem;
       border: 1px solid #000000;
       background: #E6E5E3;
+      font-family: "Anonymous_Pro";
+      text-decoration: none;
+      font-size: 1rem;
     }
 ::-webkit-input-placeholder {
   font-family: "Anonymous_Pro";
@@ -93,3 +96,16 @@ input[type="text"],
           margin: 10px auto;
           margin-top: 40px;
         }
+button {
+  border: 0px;
+  background: #E6E5E3;
+  display: block;
+  position: relative;
+  margin: 10px auto;
+  margin-top: 100px;
+}
+.button-medcine-form {
+  background-image: url('../images/button-medcine-form.svg');
+  height: 82px;
+  width: 204px;
+}
