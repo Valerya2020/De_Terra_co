@@ -1,16 +1,69 @@
 body {
-  width: 100vw;
-  height: 728.75vh;
+  height: calc(1496px + 121.25vh);
 }
 #grid_medcine {
   position: relative;
   display: grid;
   grid-template:
-  "header_medcine-centre"
-  "header_medcine-centre"
+  "header_medcine-centre"          10vh
+  "info_medcine-centre"            70vh
+  "void"                           10vh
+  "form_medcine-centre"            1311px
+  "button_space_medcine-centre"    185px
+  "footer"                         18.75vh
+  /100%
   ;
   grid-gap: 0px;
   height: 100%;
   width: 100%;
-  margin: 0px;
+  margin-top: 12.5vh;
+}
+.header_medcine-centre {
+  grid-area: header_medcine-centre;
+  border-top: 0px;
+  border-bottom: 0px;
+}
+.info_medcine-centre {
+  grid-area: info_medcine-centre;
+  border-top: 0px;
+  border-bottom: 0px;
+  position: relative;
+  display: grid;
+  grid-template:
+  "info_medcine_image info_medcine_text" 100%
+  /7fr                5fr
+  ;
+  grid-gap: 20px;
+  height: 100%;
+  width: 100%;
+}
+.info_medcine_image {
+    grid-area: info_medcine_image;
+    position: relative;
+    display: block;
+    margin: 0px;
+    padding: 20px;
+    border: 1px solid #000000;
+}
+.info_medcine_text {
+    grid-area: info_medcine_text;
+    position: relative;
+    display: block;
+    margin: 0px;
+    padding: 20px;
+    border: 1px solid #000000;
+}
+.void {
+  grid-area: void;
+  border-top: 0px;
+  border-bottom: 0px;
+}
+.form_medcine-centre {
+  grid-area: form_medcine-centre;
+  border-bottom: 0px;
+}
+.button_space_medcine-centre {
+  grid-area: button_space_medcine-centre;
+  border-top: 0px;
+  border-bottom: 0px;
 }
