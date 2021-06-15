@@ -1,0 +1,25 @@
+body {
+height: 100vh;
+width: 100vw;
+}
+#grid_gallery {
+  position: relative;
+  display: grid;
+  grid-template:
+  "content_gallery"  68.75vh
+  "footer"        18.75vh
+  /100vw
+  ;
+  grid-gap: 0px;
+  height: 100%;
+  width: 100%;
+  margin-top: 12.5vh;
+}
+.content_gallery {
+  grid-area: content_gallery;
+  border-top: 0px;
+  border-bottom: 0px;
+}
+.footer {
+  grid-area: footer;
+}
