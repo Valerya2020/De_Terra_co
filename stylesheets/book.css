@@ -54,6 +54,9 @@ border-bottom: 0px;
   display: block;
   position: relative;
 }
+.obl1 {
+  background-image: url('../images/obl1.png');
+}
 .trailer-video-space {
   grid-area: trailer-video-space;
   border-bottom: 0px;
@@ -62,6 +65,9 @@ border-bottom: 0px;
   background-size: contain;
   display: block;
   position: relative;
+}
+.obl2 {
+  background-image: url('../images/obl2.png');
 }
 .button-book-space {
   grid-area: button-book-space;
