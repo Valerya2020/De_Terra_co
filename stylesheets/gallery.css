@@ -87,3 +87,6 @@ height: 100%;
   height: 100%;
   display: block;
 }
+.menu-items-shop a {
+  text-decoration: none;
+}

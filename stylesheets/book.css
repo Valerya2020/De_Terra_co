@@ -26,9 +26,9 @@ width: 100%;
   position: relative;
   display: grid;
   grid-template:
-  "text-book-space      book-image-space    trailer-video-space"     7fr
-  "button-book-space    book-image-space    trailer-video-space"     3fr
-  /50%                  25%                 25%
+  "text-book-space      book-image-space                trailer-video-space"      7fr
+  "button-book-space    book-image-space                trailer-video-space"      3fr
+  /1fr                  calc(42.96875vh - 1.875rem)     calc(42.96875vh - 1.875rem)
   ;
   grid-gap: 0px;
   height: 100%;
@@ -43,16 +43,25 @@ border-bottom: 0px;
   grid-area: text-book-space;
   border-left: 0px;
   border-right: 0px;
+  border-bottom: 0px;
 }
 .book-image-space {
   grid-area: book-image-space;
   border-right: 0px;
   border-bottom: 0px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  position: relative;
 }
 .trailer-video-space {
   grid-area: trailer-video-space;
   border-bottom: 0px;
   border-right: 0px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  position: relative;
 }
 .button-book-space {
   grid-area: button-book-space;
