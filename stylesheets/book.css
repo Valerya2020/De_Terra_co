@@ -72,6 +72,7 @@ border-bottom: 0px;
 .button-book-space {
   grid-area: button-book-space;
   border: 0px;
+  padding: 50px;
 }
 nav {
   border-left: 0px;
@@ -80,4 +81,9 @@ nav {
 .footer {
   border-left: 0px;
   border-right: 0px;
+}
+.button-book {
+  background-image: url('../images/button-book.svg');
+  height: 83px;
+  width: 237px;
 }
