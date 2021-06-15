@@ -1,15 +1,25 @@
+body {
+height: 100%;
+width: 100%;
+}
 #grid_book {
   position: relative;
   display: grid;
   grid-template:
-  "content_book" calc(68.75vh - 3.05rem)
+  "content_book" calc(68.75vh - 3rem)
   "footer"          18.75vh
   /100vw
   ;
   grid-gap: 0px;
   height: 100%;
   width: 100%;
-  margin-top: calc(12.5vh + 3.05rem);
+  margin-top: calc(12.5vh + 3rem);
+}
+.main {
+  overflow: hidden;
+  border: 1px solid #000000;
+  border-top: 0px;
+  border-bottom: 0px;
 }
 .content_book {
   grid-area: content_book;
@@ -24,15 +34,35 @@
   height: 100%;
   width: 100%;
   padding: 0px;
-  border-bottom: 0px;
-  border-top: 0px;
+  border: 0px;
 }
 .menu-shop p {
-/* border-bottom: 0px; */
+border-bottom: 0px;
 }
 .text-book-space {
   grid-area: text-book-space;
+  border-left: 0px;
+  border-right: 0px;
 }
 .book-image-space {
   grid-area: book-image-space;
+  border-right: 0px;
+  border-bottom: 0px;
+}
+.trailer-video-space {
+  grid-area: trailer-video-space;
+  border-bottom: 0px;
+  border-right: 0px;
+}
+.button-book-space {
+  grid-area: button-book-space;
+  border: 0px;
+}
+nav {
+  border-left: 0px;
+  border-right: 0px;
+}
+.footer {
+  border-left: 0px;
+  border-right: 0px;
 }
