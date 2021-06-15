@@ -1,0 +1,38 @@
+#grid_book {
+  position: relative;
+  display: grid;
+  grid-template:
+  "content_book" calc(68.75vh - 3.05rem)
+  "footer"          18.75vh
+  /100vw
+  ;
+  grid-gap: 0px;
+  height: 100%;
+  width: 100%;
+  margin-top: calc(12.5vh + 3.05rem);
+}
+.content_book {
+  grid-area: content_book;
+  position: relative;
+  display: grid;
+  grid-template:
+  "text-book-space      book-image-space    trailer-video-space"     7fr
+  "button-book-space    book-image-space    trailer-video-space"     3fr
+  /50%                  25%                 25%
+  ;
+  grid-gap: 0px;
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  border-bottom: 0px;
+  border-top: 0px;
+}
+.menu-shop p {
+/* border-bottom: 0px; */
+}
+.text-book-space {
+  grid-area: text-book-space;
+}
+.book-image-space {
+  grid-area: book-image-space;
+}
