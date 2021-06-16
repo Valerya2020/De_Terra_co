@@ -11,7 +11,7 @@ width: 100%;
   grid-template:
   "content_shop" calc(206.25vh + 80px)
   "footer"          18.75vh
-  /100vw
+  /100%
   ;
   grid-gap: 0px;
   height: 100%;
@@ -22,6 +22,55 @@ width: 100%;
   grid-area: content_shop;
   border-top: 0px;
   border-bottom: 0px;
+  position: relative;
+  display: grid;
+  grid-template:
+  "store-card-advert1 store-card-advert2 store-card-advert3" 1fr
+  "store-card-advert4 store-card-advert5 store-card-advert6" 1fr
+  "store-card-advert7 store-card-advert8 store-card-advert9" 1fr
+  /1fr                1fr                1fr
+  ;
+  grid-gap: 20px;
+  grid-row-gap: 0px;
+  height: 100%;
+  width: 100%;
+  padding-top: 0px;
+}
+.store-card-advert4 {
+  grid-area: store-card-advert4;
+}
+.store-card-advert5 {
+  grid-area: store-card-advert5;
+}
+.store-card-advert6 {
+  grid-area: store-card-advert6;
+}
+.store-card-advert7 {
+  grid-area: store-card-advert7;
+}
+.store-card-advert8 {
+  grid-area: store-card-advert8;
+}
+.store-card-advert9 {
+  grid-area: store-card-advert9;
+}
+.image-store-card4 {
+background-image: url('../images/image-store-card4.png');
+}
+.image-store-card5 {
+background-image: url('../images/image-store-card5.png');
+}
+.image-store-card6 {
+background-image: url('../images/image-store-card6.png');
+}
+.image-store-card7 {
+background-image: url('../images/image-store-card7.png');
+}
+.image-store-card8 {
+background-image: url('../images/image-store-card8.png');
+}
+.image-store-card9 {
+background-image: url('../images/image-store-card9.png');
 }
 .footer {
   grid-area: footer;
