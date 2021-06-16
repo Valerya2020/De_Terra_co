@@ -2,14 +2,14 @@
 border-bottom: 1px solid #000000;;
 }
 body {
-height: 100%;
+height: calc(237.5vh + 140px);
 width: 100%;
 }
-#grid_book {
+#grid_shop {
   position: relative;
   display: grid;
   grid-template:
-  "content_book" calc(68.75vh - 3rem)
+  "content_shop" calc(206.25vh + 80px)
   "footer"          18.75vh
   /100vw
   ;
@@ -17,4 +17,15 @@ width: 100%;
   height: 100%;
   width: 100%;
   margin-top: calc(12.5vh + 3rem);
+}
+.content_shop {
+  grid-area: content_shop;
+  border-top: 0px;
+  border-bottom: 0px;
+}
+.footer {
+  grid-area: footer;
+}
+.main {
+  overflow: hidden;
 }
