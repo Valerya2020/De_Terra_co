@@ -78,3 +78,6 @@ background-image: url('../images/image-store-card9.png');
 .main {
   overflow: hidden;
 }
+.section a {
+  text-decoration: none;
+}
