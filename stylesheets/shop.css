@@ -1,0 +1,20 @@
+.menu-shop p {
+border-bottom: 1px solid #000000;;
+}
+body {
+height: 100%;
+width: 100%;
+}
+#grid_book {
+  position: relative;
+  display: grid;
+  grid-template:
+  "content_book" calc(68.75vh - 3rem)
+  "footer"          18.75vh
+  /100vw
+  ;
+  grid-gap: 0px;
+  height: 100%;
+  width: 100%;
+  margin-top: calc(12.5vh + 3rem);
+}
