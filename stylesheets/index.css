@@ -52,7 +52,7 @@ h3 {
   "education_advertisement    education_advertisement"  110vh
   "medcine                    medcine"                  100vh
   "footer                     footer"                   18.75vh
-  /50vw                       50vw
+  /50%                       50%
   ;
   grid-gap: 0px;
   height: 100%;
