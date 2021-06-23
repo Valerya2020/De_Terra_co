@@ -61,13 +61,13 @@ body {
 .big_circle {
   height: calc(68.75vh - 40px);
   width: calc(68.75vh - 40px);
-  background-image: url('../images/big_circle.svg');
+  /* background-image: url('../images/big_circle.svg'); */
   animation: rotation_circle 10s linear infinite;
 }
 .middle_circle {
   height: 40vh;
   width: 40vh;
-  background-image: url('../images/middle_circle.svg');
+  /* background-image: url('../images/middle_circle.svg'); */
   animation: rotation_circle 10s linear reverse infinite;
 }
 .small_circle {
@@ -75,6 +75,15 @@ body {
   width: 20vh;
   background-image: url('../images/small_circle.svg');
   animation: rotation_circle 10s linear infinite;
+}
+.centre_circle svg {
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  stroke-width: 1px;
 }
 .centre_circle {
   display: block;
