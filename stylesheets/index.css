@@ -99,7 +99,8 @@ h3 {
   background-repeat: no-repeat;
   position: relative;
   display: block;
-  background-image: url('../images/image_about1.jpg');
+  background-position: center;
+  background-image: url('../images/image_about1.png');
 }
 .description_about1 {
   grid-area: description_about1;

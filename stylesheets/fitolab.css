@@ -1,0 +1,61 @@
+body {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background: #E6E5E3;
+  position: relative;
+  height: 100vh;
+}
+#grid_fitolab {
+  position: relative;
+  display: grid;
+  grid-template:
+  "content_fitolab"  68.75vh
+  "footer"        18.75vh
+  /100vw
+  ;
+  grid-gap: 0px;
+  height: 100%;
+  width: 100%;
+  margin-top: 12.5vh;
+}
+.content_fitolab {
+  grid-area: content_fitolab;
+  border-top: 0px;
+  border-bottom: 0px;
+  display: grid;
+  grid-template:
+  "fito_image_space   fito_text" 100%
+  /8fr             4fr
+  ;
+  grid-gap: 20px;
+  height: 100%;
+  width: 100%;
+}
+.fito_image_space {
+  grid-area: fito_image_space;
+  /* position: relative;
+  display: grid;
+  grid-template:
+  "price-store-card" 1.2rem
+  "..." 1fr
+  "indicate_fito-image"  190px
+  /100%
+  ;
+  grid-gap: 0px;
+  height: 100%;
+  width: 100%;
+  margin: 0px; */
+}
+/* .price-store-card {
+  grid-area: price-store-card;
+}
+.indicate_fito-image {
+  grid-area: indicate_fito-image;
+} */
+.fito_text {
+  grid-area: fito_text;
+}
+.image-fitolab-card1 {
+  background-image: url('../images/image-fitolab-card1.png');
+}
