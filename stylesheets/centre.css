@@ -26,10 +26,64 @@ body {
   position: relative;
   display: grid;
   grid-template:
-  "centre_image_space     centre_text_space" 100%
-  /50%                    50%
+  "centre_image_space     centre_header_space" 2fr
+  "centre_image_space     centre_text_space" 8fr
+  /1fr                    1fr
   ;
   grid-gap: 20px;
+  grid-row-gap: 0px;
   height: 100%;
   width: 100%;
+}
+.centre_header_space {
+  grid-area: centre_header_space;
+  display: grid;
+  position: relative;
+  text-align: center;
+  align-items: center;
+}
+.centre_image_space {
+  grid-area: centre_image_space;
+  display: grid;
+  position: relative;
+  align-items: center;
+  justify-items: center;
+}
+.centre_text_space {
+  grid-area: centre_text_space;
+  border-top: 0px;
+}
+.centre_header_space p {
+  font-family: "Anonymous_Pro_B";
+  color: #3C604F;
+  font-size: 1rem;
+}
+.big_circle {
+  height: calc(68.75vh - 40px);
+  width: calc(68.75vh - 40px);
+  background-image: url('../images/big_circle.svg');
+  animation: rotation_circle 10s linear infinite;
+}
+.middle_circle {
+  height: 40vh;
+  width: 40vh;
+  background-image: url('../images/middle_circle.svg');
+  animation: rotation_circle 10s linear reverse infinite;
+}
+.small_circle {
+  height: 20vh;
+  width: 20vh;
+  background-image: url('../images/small_circle.svg');
+  animation: rotation_circle 10s linear infinite;
+}
+.centre_circle {
+  display: block;
+  position: absolute;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@keyframes rotation_circle {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
 }
