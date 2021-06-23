@@ -34,25 +34,52 @@ body {
 }
 .fito_image_space {
   grid-area: fito_image_space;
-  /* position: relative;
+  position: relative;
   display: grid;
   grid-template:
-  "price-store-card" 1.2rem
-  "..." 1fr
-  "indicate_fito-image"  190px
-  /100%
+  "...           fito-icon               ..."         48px
+  "...           name-fito-card          ..."         1.2rem
+  "arrow_left    image-fitolab           arrow_right" 100%
+  "...           indicate_fito-image     ..."         190px
+  /60px          100%                    60px
   ;
   grid-gap: 0px;
   height: 100%;
   width: 100%;
-  margin: 0px; */
+  margin: 0px;
+  padding: 0px;
 }
-/* .price-store-card {
-  grid-area: price-store-card;
+.name-fito-card {
+  grid-area: name-fito-card;
+  position: absolute;
+  display: flex;
+  border: 1px solid #000000;
+  border-bottom: 0px;
+  border-right: 0px;
+  text-align: center;
+  align-items: center;
+  padding: 1rem;
+  padding-left: 0px;
+  z-index: 6;
+  top: 1.2rem;
+  height: 1.2rem;
+  width: auto;
+}
+.name-fito-card p {
+  display: inline-block;
+  border: 1px solid #000000;
+  background: #E6E5E3;
+  padding: .5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-left: 0px;
+}
+.image-fitolab {
+  grid-area: image-fitolab;
 }
 .indicate_fito-image {
   grid-area: indicate_fito-image;
-} */
+}
 .fito_text {
   grid-area: fito_text;
 }

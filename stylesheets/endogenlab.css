@@ -1,0 +1,159 @@
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: #E6E5E3;
+  position: relative;
+  height: 360vh;
+}
+#grid_endogen_image {
+  position: absolute;
+  display: grid;
+  grid-template:
+  "endogen_image1    endogen_image1    endogen_image1    endogen_image1"   calc(68.75vh - 40px)
+  "endogen_image2    endogen_image3    endogen_image4    endogen_image4"   6.25vh
+  "endogen_image2    endogen_image5    endogen_image5    endogen_image6"   15fr
+  "endogen_image2    endogen_image7    endogen_image7    endogen_image6"   20fr
+  "endogen_image8    endogen_image8    endogen_image8    endogen_image6"   30fr
+  "endogen_image9    endogen_image9    endogen_image9    endogen_image9"   50fr
+  "endogen_image10   endogen_image10   endogen_image10   endogen_image10"  65fr
+  "endogen_image11   endogen_image11   endogen_image12   endogen_image12"  15fr
+  "endogen_image13   endogen_image14   endogen_image12   endogen_image12"  20fr
+  "endogen_image15   endogen_image16   endogen_image12   endogen_image12"  30fr
+  "endogen_image15   endogen_image16   endogen_image17   endogen_image17"  40fr
+  /2fr               2fr               1fr               3fr
+  ;
+  grid-gap: 20px;
+  height: 100%;
+  width: 66%;
+  margin-top: 12.5vh;
+  margin-left: 34%;
+  padding: 20px;
+  padding-bottom: calc(31.25vh + 20px);
+}
+.endogen_image1 {
+  grid-area: endogen_image1;
+  background-image: url('../images/endogen_image1.png');
+}
+.endogen_image2 {
+  grid-area: endogen_image2;
+  background-image: url('../images/endogen_image1.png');
+}
+.endogen_image3 {
+  grid-area: endogen_image3;
+  background-image: url('../images/endogen_image1.png');
+}
+.endogen_image4 {
+  grid-area: endogen_image4;
+  background-image: url('../images/endogen_image1.png');
+}
+.endogen_image5 {
+  grid-area: endogen_image5;
+  background-image: url('../images/endogen_image1.png');
+}
+.endogen_image6 {
+  grid-area: endogen_image6;
+  background-image: url('../images/endogen_image1.png');
+}
+.endogen_image7 {
+  grid-area: endogen_image7;
+  background-image: url('../images/endogen_image1.png');
+}
+.endogen_image8 {
+  grid-area: endogen_image8;
+  background-image: url('../images/endogen_image1.png');
+}
+.endogen_image9 {
+  grid-area: endogen_image9;
+  background-image: url('../images/endogen_image1.png');
+}
+.endogen_image10 {
+  grid-area: endogen_image10;
+  background-image: url('../images/endogen_image1.png');
+}
+.endogen_image11 {
+  grid-area: endogen_image11;
+  background-image: url('../images/endogen_image1.png');
+}
+.endogen_image12 {
+  grid-area: endogen_image12;
+  background-image: url('../images/endogen_image1.png');
+}
+.endogen_image13 {
+  grid-area: endogen_image13;
+  background-image: url('../images/endogen_image1.png');
+}
+.endogen_image14 {
+  grid-area: endogen_image14;
+  background-image: url('../images/endogen_image1.png');
+}
+.endogen_image15 {
+  grid-area: endogen_image15;
+  background-image: url('../images/endogen_image1.png');
+}
+.endogen_image16 {
+  grid-area: endogen_image16;
+  background-image: url('../images/endogen_image1.png');
+}
+.endogen_image17 {
+  grid-area: endogen_image17;
+  background-image: url('../images/endogen_image1.png');
+}
+.endogen_image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: block;
+}
+#grid_endogenlab {
+  position: fixed;
+  display: grid;
+  grid-template:
+  "content_endogenlab"  68.75vh
+  "footer"        18.75vh
+  /100%
+  ;
+  grid-gap: 0px;
+  height: 100%;
+  width: 100%;
+  margin-top: 12.5vh;
+  padding: 0px;
+}
+.content_endogenlab {
+  grid-area: content_endogenlab;
+  border-top: 0px;
+  border-bottom: 0px;
+  position: relative;
+  display: grid;
+  grid-template:
+  "endogen_text       ..." 8fr
+  "endogen_button1    ..." 1fr
+  "endogen_button2    ..." 2fr
+  /34%                1fr
+  ;
+  grid-gap: 0px;
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+}
+.endogen_text {
+  grid-area: endogen_text;
+  border-top: 0px;
+  border-left: 0px;
+  border-bottom: 0px;
+}
+.endogen_button1 {
+  grid-area: endogen_button1;
+  border-left: 0px;
+  border-bottom: 0px;
+}
+.endogen_button2 {
+  grid-area: endogen_button2;
+  border-left: 0px;
+  border-bottom: 0px;
+}
+.endogen_button {
+  display: grid;
+  text-align: center;
+  align-items: center;
+}
