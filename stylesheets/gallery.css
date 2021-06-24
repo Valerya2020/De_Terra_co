@@ -113,4 +113,24 @@ height: 100%;
   width: 80vw;
   margin-top: 5vh;
   margin-left: 10vw;
+  z-index: 61;
+  background: #E6E5E3;
+}
+.pop_up_header {
+  grid-area: pop_up_header;
+  border-bottom: 0px;
+  background: url('../images/pop_up_header.svg');
+  background-size: auto 100%;
+  position: relative;
+  display: grid;
+  grid-template:
+  "pop_up_price pop_up_close"
+  ;
+  grid-gap: 0px;
+}
+.pop_up_content {
+  grid-area: pop_up_content;
+}
+.pop_up_button {
+  grid-area: pop_up_button;
 }
