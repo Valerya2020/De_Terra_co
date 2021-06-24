@@ -78,8 +78,9 @@
     /100%
     ;
   }
-
-
+nav a {
+  display: none;
+}
 
 }
 /* 320–475 (iPhone SE) */
