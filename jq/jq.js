@@ -52,4 +52,9 @@ $(document).ready(function(){
   $(".bubble").toggleClass("hidden_element");
   });
 
+  $(".pop_up_close").click(function(){
+  $(".grid_pop_up").addClass("hidden_element");
+  $(".pop_up_blur").addClass("hidden_element");
+  });
+
   });

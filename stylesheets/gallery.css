@@ -152,4 +152,32 @@ position: relative;
 }
 .pop_up_button {
   grid-area: pop_up_button;
+  position: absolute;
+  display: grid;
+  border: 0px;
+  text-align: center;
+  align-items: center;
+  padding-left: 0px;
+  z-index: 62;
+  height: 1.2rem;
+  width: auto;
+  justify-self: end;
+  bottom: 18px;
+}
+.pop_up_button p {
+  display: inline-block;
+  border: 1px solid #000000;
+  background: #E6E5E3;
+  padding: .5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.pop_up_button:hover p {
+  cursor: pointer;
+}
+.pop_up_close:hover {
+  cursor: pointer;
+}
+.hidden_element {
+  display: none;
 }
