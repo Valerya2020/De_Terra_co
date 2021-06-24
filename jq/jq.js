@@ -57,4 +57,9 @@ $(document).ready(function(){
   $(".pop_up_blur").addClass("hidden_element");
   });
 
+  $(".poster_wall").click(function(){
+  $(".grid_pop_up").removeClass("hidden_element");
+  $(".pop_up_blur").removeClass("hidden_element");
+  });
+
   });
