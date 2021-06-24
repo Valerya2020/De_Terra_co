@@ -1,6 +1,6 @@
 @media only screen and (orientation: portrait) {
   body {
-    height: 397.5vh;
+    height: 400.5vh;
   }
   html {
     font-size: 16px;
@@ -16,13 +16,71 @@
     "description_about2         description_about2"       50vh
     "description_about3         description_about3"       50vh
     "store_advertisement        store_advertisement"      55vh
-    "science_advertisement      science_advertisement"    55vh
+    "science_advertisement      science_advertisement"    58vh
     "education_advertisement    education_advertisement"  60vh
     "medcine                    medcine"                  55vh
     "footer                     footer"                   13.5vh
     /50%                       50%
     ;
   }
+
+  .description_about2  {
+    grid-template:
+    " text_space-da2        text_space-da2        text_space-da2        text_space-da2        text_space-da2        ...                   ..."              3fr
+    " ...                   ...                   ...                   ...                   ...                   composition1_p1       composition1_p1"  2fr
+    " ...                   ...                   ...                   composition1_p2       composition1_p2       composition1_p2       composition1_p2"  3fr
+    " ...                   ...                   composition1_p3       composition1_p3       composition1_p3       composition1_p3       composition1_p3"  1fr
+    " ...                   composition1_p4       composition1_p4       ...                   composition1_p5       composition1_p5       ..."              2fr
+    " ...                   ...                   ...                   ...                   composition1_p5       composition1_p5       ..."              2fr
+    " composition1_p6       composition1_p6       composition1_p6       composition1_p6       composition1_p5       composition1_p5       ..."              2fr
+    /1fr                    3fr                   1fr                   1fr                   3fr                   2fr                   1fr
+    ;
+  }
+
+  .description_about3  {
+    grid-template:
+    " text_space-da3        text_space-da3        text_space-da3        text_space-da3        text_space-da3        ...                   ..."               3fr
+    " ...                   ...                   ...                   ...                   ...                   composition2_p1       composition2_p1"   1fr
+    " ...                   ...                   ...                   composition2_p2       composition2_p2       composition2_p2       composition2_p3"   1fr
+    " composition2_p4       ...                   ...                   ...                   ...                   ...                   composition2_p3"   1fr
+    " composition2_p4       composition2_p5       ...                   ...                   composition2_p6       composition2_p6       composition2_p3"   1fr
+    " composition2_p4       composition2_p5       composition2_p7       composition2_p7       composition2_p6       composition2_p6       composition2_p3"   1fr
+    " composition2_p4       composition2_p8       composition2_p8       composition2_p8       composition2_p6       composition2_p6       composition2_p3"   3fr
+    /2fr                    3fr                   1fr                   2fr                   2fr                   2fr                   2fr
+    ;
+  }
+
+  .store_advertisement  {
+    grid-template:
+    "header_store"  10%
+    "content_store" 60%
+    "button_store"  30%
+    /100%
+    ;
+  }
+  .button-space {
+    padding-bottom: 50px;
+  }
+
+  .science_advertisement  {
+    grid-template:
+    "header_science"  10%
+    "content_science" 60%
+    "button_science"  30%
+    /100%
+    ;
+  }
+  .education_advertisement  {
+    grid-template:
+    "header_education"  10%
+    "content_education" 60%
+    "button_education"  30%
+    /100%
+    ;
+  }
+
+
+
 }
 /* 320–475 (iPhone SE) */
 @media only screen and (min-width: 320px) and (max-width: 767px) {
