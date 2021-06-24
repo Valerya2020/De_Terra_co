@@ -87,6 +87,7 @@ body {
   justify-items: center;
   z-index: 3;
   top: -39px;
+  transition: display 1s ease;
 }
 .indicate_card {
   display: flex;
@@ -135,10 +136,12 @@ body {
 .arrow_left {
   grid-area: arrow_left;
   left: -1px;
+  transition: display 1s ease;
 }
 .arrow_right {
   grid-area: arrow_right;
   left: -39px;
+  transition: display 1s ease;
 }
 .arrow_area {
   display: grid;
@@ -164,7 +167,6 @@ body {
 }
 .fito_slider_hide {
   display: none;
-  transition: display 1s ease;
 }
 .fito_image_space:hover .fito_slider_hide {
   display: grid;
