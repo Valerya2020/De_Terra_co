@@ -145,6 +145,11 @@ position: relative;
 .pop_up_content {
   grid-area: pop_up_content;
 }
+.pop_up_image {
+  background: url('../images/pop_up_close.png');
+  background-position: center;
+  background-size: cover;
+}
 .pop_up_button {
   grid-area: pop_up_button;
 }
