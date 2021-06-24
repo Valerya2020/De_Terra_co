@@ -119,7 +119,7 @@ body {
 .image-fitolab-card1 {
   background-image: url('../images/image-fitolab-card1.png');
 }
-.fito-icon {
+.fito_icon {
   grid-area: fito-icon;
   display: block;
   position: relative;
@@ -132,6 +132,9 @@ body {
   z-index: 1;
   left: -1px;
   top: -1px;
+}
+.fito_icon_sun {
+    background-image: url('../images/fito-icon_sun.svg');
 }
 .arrow_left {
   grid-area: arrow_left;
