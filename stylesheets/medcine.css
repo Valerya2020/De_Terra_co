@@ -82,6 +82,7 @@ input[type="text"],
       font-family: "Anonymous_Pro";
       text-decoration: none;
       font-size: 1rem;
+      /* appearance: none; */
     }
 ::-webkit-input-placeholder {
   font-family: "Anonymous_Pro";
