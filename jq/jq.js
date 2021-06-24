@@ -17,6 +17,7 @@ $(document).ready(function(){
         $(".image-fitolab-card4").removeClass("image-fitolab-card4");
         $(".fito_circle_slider").toggleClass("active_circle");
         $(".name-fito-card p").toggleClass("hidden_element");
+        $(".fito_text p").toggleClass("hidden_element");
       }
       if (fito_counter == 2) {
           $(".image-fitolab-card1").addClass("image-fitolab-card3");
@@ -25,6 +26,7 @@ $(document).ready(function(){
           $(".image-fitolab-card2").removeClass("image-fitolab-card2");
           $(".fito_circle_slider").toggleClass("active_circle");
           $(".name-fito-card p").toggleClass("hidden_element");
+          $(".fito_text p").toggleClass("hidden_element");
         }
         if (fito_counter >= 3) {
           fito_counter = 1;
@@ -34,6 +36,7 @@ $(document).ready(function(){
           $(".image-fitolab-card4").removeClass("image-fitolab-card4");
           $(".fito_circle_slider").toggleClass("active_circle");
           $(".name-fito-card p").toggleClass("hidden_element");
+          $(".fito_text p").toggleClass("hidden_element");
           }
     });
   });

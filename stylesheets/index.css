@@ -766,6 +766,7 @@ nav {
   margin: 20px;
   right: 0px;
   bottom: 0px;
+  animation: rotation_circle 10s linear infinite;
 }
 .bio_header {
   position: absolute;
@@ -787,4 +788,8 @@ nav {
   display: flex;
   background-size: 100% 100%;
   background-repeat: no-repeat;
+}
+@keyframes rotation_circle {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
 }

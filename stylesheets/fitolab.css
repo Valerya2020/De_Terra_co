@@ -192,6 +192,6 @@ body {
 .fito_image_space:hover .fito_slider_hide {
   display: grid;
 }
-.name-fito-card .hidden_element {
+.name-fito-card .hidden_element, .fito_text .hidden_element {
   display: none;
 }
