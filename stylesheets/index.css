@@ -768,6 +768,20 @@ nav {
   bottom: 0px;
   animation: rotation_circle 10s linear infinite;
 }
+.bubble {
+  position: fixed;
+  display: block;
+  height: 248px;
+  width: 271px;
+  background: url('../images/bubble.svg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  z-index: 30;
+  margin: 6.8rem;
+  right: 0px;
+  bottom: 0px;
+  padding: 20px;
+}
 .bio_header {
   position: absolute;
   display: flex;

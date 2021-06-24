@@ -48,4 +48,8 @@ $(document).ready(function(){
   $(".centre_header_space p").toggleClass("hidden_element");
   });
 
+  $(".artificial_intelligence").hover(function(){
+  $(".bubble").toggleClass("hidden_element");
+  });
+
   });
