@@ -101,6 +101,9 @@ body {
   padding-left: 3rem;
   padding-right: 3rem;
 }
+.indicate_card:hover {
+  cursor: pointer;
+}
 .fito_circle_slider {
   display: block;
   position: relative;
@@ -119,6 +122,15 @@ body {
 .image-fitolab-card1 {
   background-image: url('../images/image-fitolab-card1.png');
 }
+.image-fitolab-card2 {
+  background-image: url('../images/image-fitolab-card2.png');
+}
+.image-fitolab-card3 {
+  background-image: url('../images/image-fitolab-card3.png');
+}
+.image-fitolab-card4 {
+  background-image: url('../images/image-fitolab-card4.png');
+}
 .fito_icon {
   grid-area: fito-icon;
   display: block;
@@ -129,9 +141,12 @@ body {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-image: url('../images/fito-icon_moon.svg');
-  z-index: 1;
+  z-index: 10;
   left: -1px;
   top: -1px;
+}
+.fito_icon:hover {
+  cursor: pointer;
 }
 .fito_icon_sun {
     background-image: url('../images/fito-icon_sun.svg');
@@ -167,6 +182,9 @@ body {
   background-position: center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
+}
+.arrow:hover {
+  cursor: pointer;
 }
 .fito_slider_hide {
   display: none;
