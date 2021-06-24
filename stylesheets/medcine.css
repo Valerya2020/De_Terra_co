@@ -82,9 +82,25 @@ input[type="text"],
       font-family: "Anonymous_Pro";
       text-decoration: none;
       font-size: 1rem;
-      /* appearance: none; */
+      appearance: none;
     }
-  
+    .select{
+      display: grid;
+      grid-template-areas: "select";
+      align-items: center;
+    }
+    .select::after {
+    content: "";
+    width: 0.8em;
+    height: 0.5em;
+    background-color: #3C604F;
+    clip-path: polygon(100% 0%, 0 0%, 50% 100%);
+    justify-self: end;
+  }
+  select,
+.select:after {
+  grid-area: select;
+}
 ::-webkit-input-placeholder {
   font-family: "Anonymous_Pro";
   text-decoration: none;
