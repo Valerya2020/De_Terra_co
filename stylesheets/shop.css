@@ -1,7 +1,7 @@
 .menu-shop p {
 border-bottom: 1px solid #000000;
 }
-body {
+.body_shop {
 height: calc(237.5vh + 140px);
 width: 100%;
 }

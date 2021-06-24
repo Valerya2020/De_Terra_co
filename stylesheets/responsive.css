@@ -1,7 +1,30 @@
 @media only screen and (orientation: portrait) {
-
+  body {
+    height: 397.5vh;
+  }
+  html {
+    font-size: 16px;
+  }
+  nav {
+    height: 9vh;
+  }
+  #grid_about {
+    grid-template:
+    "menu_about                 menu_about"               9vh
+    "header_about               header_about"             21vh
+    "image_about1               description_about1"       29vh
+    "description_about2         description_about2"       50vh
+    "description_about3         description_about3"       50vh
+    "store_advertisement        store_advertisement"      55vh
+    "science_advertisement      science_advertisement"    55vh
+    "education_advertisement    education_advertisement"  60vh
+    "medcine                    medcine"                  55vh
+    "footer                     footer"                   13.5vh
+    /50%                       50%
+    ;
+  }
 }
 /* 320–475 (iPhone SE) */
 @media only screen and (min-width: 320px) and (max-width: 767px) {
-  
+
 }
