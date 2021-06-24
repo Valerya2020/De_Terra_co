@@ -803,6 +803,9 @@ nav {
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
+.image_effect:hover {
+  filter: invert(100%);
+}
 .hidden_element {
   display: none;
 }
