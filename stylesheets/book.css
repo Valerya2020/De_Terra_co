@@ -66,11 +66,8 @@ border-bottom: 0px;
   display: block;
   position: relative;
 }
-.trailer-video-space iframe {
-  display: block;
-  position: relative;
-  height: 100%;
-  width: 100%;
+.trailer_video {
+  background-image: url('../images/trailer_video.svg');
 }
 .button-book-space {
   grid-area: button-book-space;

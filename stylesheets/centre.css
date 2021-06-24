@@ -92,6 +92,17 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
+.building_scheme_below {
+  background-image: url('../images/building_scheme_below.png');
+  display: block;
+  position: absolute;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: calc(68.75vh - 40px);
+  width: calc(68.75vh - 40px);
+}
+
 .hidden_element {
   display: none;
 }

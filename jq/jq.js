@@ -44,6 +44,8 @@ $(document).ready(function(){
   $(".centre_image_space").hover(function(){
   $(".centre_image_space .centre_circle").toggleClass("hidden_element");
   $(".centre_text_space p").toggleClass("hidden_element");
+  $(".building_scheme_below").toggleClass("hidden_element");
+  $(".centre_header_space p").toggleClass("hidden_element");
   });
 
   });
