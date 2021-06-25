@@ -149,7 +149,7 @@ background: url('../images/menu_close.png');
 /* 320–475 (iPhone SE) */
 @media only screen and (min-width: 320px) and (max-width: 767px) {
   body {
-    height: 917.5vh;
+    height: 897.5vh;
   }
   html {
     font-size: 11px;
@@ -178,7 +178,7 @@ background: url('../images/menu_close.png');
     "description_about3"         60vh
     "store_advertisement"        250vh
     "science_advertisement"      100vh
-    "education_advertisement"    270vh
+    "education_advertisement"    250vh
     "medcine"                    100vh
     "footer"                     13.5vh
     /100%
@@ -224,4 +224,43 @@ background: url('../images/menu_close.png');
   h3 {
     font-size: 5rem;
   }
+  .education_advertisement  {
+    grid-template:
+    "header_education"  5%
+    "content_education" 65%
+    "button_education"  30%
+    /100%
+    ;
+  }
+
+  .content_education  {
+    grid-template:
+    "education-card-content1" 1fr
+    "education-card-content2" 1fr
+    "education-card-content3" 1fr
+    /100%
+    ;
+  }
+
+  .medcine  {
+    grid-template:
+    "header_medcine"        1fr
+    "image_medcine"         3fr
+    "text_space-medcine1"   2fr
+    "text_space-medcine2"   2fr
+    "text_space-medcine3"   2fr
+    "button-medcine"   1fr
+    /100%
+    ;
+  }
+  .text_space-medcine1 {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid #000000;
+  }
+  .button-medcine-ticket {
+    padding: 5px;
+  }
+
 }
