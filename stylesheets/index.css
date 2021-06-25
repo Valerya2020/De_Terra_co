@@ -807,6 +807,12 @@ nav {
 .image_effect:hover {
   filter: invert(100%);
 }
+.button_hover:hover {
+  background: #3C604F;
+}
+.button_hover:hover p {
+  color: #E6E5E3;
+}
 
 .hidden_element {
   display: none;
