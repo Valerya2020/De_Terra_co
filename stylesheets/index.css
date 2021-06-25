@@ -754,15 +754,7 @@ nav {
   padding: 20px;
   margin: 0px;
 }
-.menu_burger {
-  position: relative;
-  display: none;
-  height: 9vh;
-  width: 12vh;
-  background: url('../images/menu_burger.png');
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-}
+
 .artificial_intelligence {
   position: fixed;
   display: block;
@@ -815,6 +807,7 @@ nav {
 .image_effect:hover {
   filter: invert(100%);
 }
+
 .hidden_element {
   display: none;
 }

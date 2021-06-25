@@ -62,4 +62,10 @@ $(document).ready(function(){
   $(".pop_up_blur").removeClass("hidden_element");
   });
 
+  $(".menu_burger").click(function(){
+  $(".menu_burger").toggleClass("menu_close");
+  $(".menu_blur").toggleClass("hidden_element");
+  $(".menu_ipad").toggleClass("hidden_element");
+  });
+
   });

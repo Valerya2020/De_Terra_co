@@ -86,9 +86,63 @@ nav a {
   height: calc(100% - 40px);
   width: calc(100% - 20px);
 }
+.menu_ipad_items {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: calc(100% - 200px);
+  width: calc(100% - 60px);
+  flex-wrap: wrap;
+  margin-left: 40px;
+}
+.menu_ipad_items a {
+font-family: "Anonymous_Pro";
+text-decoration: none;
+font-size: 2rem;
+color: black;
+}
 .menu_burger {
   display: block;
   right: 0px;
+  position: relative;
+  height: 9vh;
+  width: 12vh;
+  background: url('../images/menu_burger.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.menu_blur {
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(60, 96, 79, 0.5);
+  backdrop-filter: blur(20px);
+  z-index: 25;
+}
+.menu_ipad {
+  display: flex;
+  position: fixed;
+  width: 40%;
+  height: 91vh;
+  z-index: 35;
+  right: 0px;
+  border: 1px solid #000000;
+  background: #E6E5E3;
+  margin-top: 9vh;
+  border-top: 0px;
+}
+a.active_menu-item {
+  font-family: "Anonymous_Pro_B";
+  color: #3C604F;
+  font-size: 2rem;
+}
+.menu_close {
+background: url('../images/menu_close.png');
+}
+.hidden_element {
+  display: none;
 }
 
 }
