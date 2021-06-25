@@ -148,5 +148,13 @@ background: url('../images/menu_close.png');
 }
 /* 320–475 (iPhone SE) */
 @media only screen and (min-width: 320px) and (max-width: 767px) {
-
+  .logo {
+        height: 55px;
+        width: 113px;
+        transform: scale(.5);
+      }
+  .menu-items{
+        height: calc(100% - 40px);
+        width: calc(100% - 20px);
+      }
 }
