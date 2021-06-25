@@ -813,6 +813,21 @@ nav {
 .button_hover:hover p {
   color: #E6E5E3;
 }
+.menu_burger {
+  display: none;
+}
+.button-in-shop:hover {
+  background-image: url('../images/button-in-shop_hover.svg');
+  width: 205px;
+}
+.button-science:hover {
+  background-image: url('../images/button-science_hover.svg');
+  height: 89px;
+  width: 281px;
+}
+.button-education:hover {
+  background-image: url('../images/button-education_hover.svg');
+}
 
 .hidden_element {
   display: none;
