@@ -755,11 +755,13 @@ nav {
   margin: 0px;
 }
 .menu_burger {
+  position: relative;
+  display: none;
   height: 9vh;
   width: 12vh;
+  background: url('../images/menu_burger.png');
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  background: url('../images/grid_menu2.svg');
 }
 .artificial_intelligence {
   position: fixed;

@@ -7,6 +7,7 @@
   }
   nav {
     height: 9vh;
+    padding-right: 0px;
   }
   #grid_about {
     grid-template:
@@ -80,6 +81,14 @@
   }
 nav a {
   display: none;
+}
+.menu-items{
+  height: calc(100% - 40px);
+  width: calc(100% - 20px);
+}
+.menu_burger {
+  display: block;
+  right: 0px;
 }
 
 }
