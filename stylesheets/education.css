@@ -173,3 +173,8 @@ width: 100%;
   background: #3C604F;
   color: #E6E5E3;
 }
+.button_education_test-prof:hover {
+background-image: url('../images/button_education_test-prof_hover.svg');
+height: 84px;
+width: 227px;
+}

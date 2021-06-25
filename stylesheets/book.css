@@ -87,3 +87,8 @@ nav {
   height: 83px;
   width: 237px;
 }
+.button-book:hover {
+  background-image: url('../images/button-book_hover.svg');
+  height: 85px;
+  width: 238px;
+}
