@@ -149,7 +149,7 @@ background: url('../images/menu_close.png');
 /* 320–475 (iPhone SE) */
 @media only screen and (min-width: 320px) and (max-width: 767px) {
   body {
-    height: 917.5vh;
+    height: 897.5vh;
   }
   html {
     font-size: 11px;
@@ -176,7 +176,7 @@ background: url('../images/menu_close.png');
     "description_about1"         16vh
     "description_about2"         60vh
     "description_about3"         60vh
-    "store_advertisement"        270vh
+    "store_advertisement"        250vh
     "science_advertisement"      80vh
     "education_advertisement"    270vh
     "medcine"                    100vh
@@ -196,6 +196,29 @@ background: url('../images/menu_close.png');
     "footer_space2" 100%
     /100%
     ;
+  }
 
+  .store_advertisement  {
+    grid-template:
+    "header_store"  5%
+    "content_store" 80%
+    "button_store"  15%
+    /100%
+    ;
+  }
+
+  .content_store  {
+    grid-template:
+    "store-card-advert1" 1fr
+    "store-card-advert2" 1fr
+    "store-card-advert3" 1fr
+    /100%
+    ;
+  }
+  .button-cards {
+    transform: scale(.7);
+  }
+  .price-store-card p {
+  border-top: 0px;
   }
 }
