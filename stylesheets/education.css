@@ -169,3 +169,7 @@ width: 100%;
   height: 83px;
   width: 226px;
 }
+.button_hover_p:hover {
+  background: #3C604F;
+  color: #E6E5E3;
+}
