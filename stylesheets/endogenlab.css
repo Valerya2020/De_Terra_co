@@ -157,3 +157,6 @@
   text-align: center;
   align-items: center;
 }
+.section a {
+  text-decoration: none;
+}

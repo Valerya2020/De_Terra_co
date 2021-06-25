@@ -262,5 +262,28 @@ background: url('../images/menu_close.png');
   .button-medcine-ticket {
     padding: 5px;
   }
+  .menu_burger {
+    background-size: 100% 100%;
+  }
+  .menu_ipad {
+    display: flex;
+    position: fixed;
+    width: 80%;
+    height: 91vh;
+    z-index: 35;
+    right: 0px;
+    border: 1px solid #000000;
+    background: #E6E5E3;
+    margin-top: 9vh;
+    border-top: 0px;
+  }
+
+  .hidden_element {
+    display: none;
+  }
+
+  .menu_ipad_items {
+    width: calc(100% - 100px);
+  }
 
 }
