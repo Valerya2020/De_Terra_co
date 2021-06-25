@@ -148,13 +148,54 @@ background: url('../images/menu_close.png');
 }
 /* 320–475 (iPhone SE) */
 @media only screen and (min-width: 320px) and (max-width: 767px) {
+  body {
+    height: 917.5vh;
+  }
+  html {
+    font-size: 11px;
+  }
   .logo {
         height: 55px;
         width: 113px;
         transform: scale(.5);
       }
+  nav {
+   padding-left: 0px;
+  }
   .menu-items{
-        height: calc(100% - 40px);
-        width: calc(100% - 20px);
-      }
+    width: 100%;
+  }
+  h1 {
+    font-size: 2.8rem;
+  }
+  #grid_about {
+    grid-template:
+    "menu_about"                 9vh
+    "header_about"               11vh
+    "image_about1"               28vh
+    "description_about1"         16vh
+    "description_about2"         60vh
+    "description_about3"         60vh
+    "store_advertisement"        270vh
+    "science_advertisement"      80vh
+    "education_advertisement"    270vh
+    "medcine"                    100vh
+    "footer"                     13.5vh
+    /100%
+    ;
+  }
+  .image_about1 {
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+  }
+  .footer_space3 {
+    display: none;
+  }
+  .footer  {
+    grid-template:
+    "footer_space2" 100%
+    /100%
+    ;
+
+  }
 }
